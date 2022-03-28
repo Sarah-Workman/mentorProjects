@@ -1,15 +1,14 @@
 
-// call a function that will return true only when both banks have contacted or when both banks have not contacted, else return false. 
+// create a function that will return true only when both banks have contacted or when both banks have not contacted, else return false. 
 function bankContactSyncronization(firstBank, secondBank){
-    let acme = firstBank;
-    let foo = secondBank;
+   
 
     
-    if(acme & foo == true){
+    if(firstBank == false && secondBank == false){
         return true;
-    }else if(acme & foo == false){
+    }else if(firstBank == true && secondBank == true){
         return true;
-    }else{acme || foo == true}{
+    }else{acme == true || foo == true}{
         return false;
     }
 
