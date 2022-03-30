@@ -4,13 +4,11 @@ function bankContactSyncronization(firstBank, secondBank){
    
 
     
-    if(firstBank == false && secondBank == false){
+    if(firstBank === false,true && secondBank === false, true){
         return true;
-    }else if(firstBank == true && secondBank == true){
-        return true;
-    }else{firstBank == true || secondBank == true}{
-        return false;
     }
+        return false;
+    
 
 }
 
