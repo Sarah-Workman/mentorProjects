@@ -8,7 +8,7 @@ function bankContactSyncronization(firstBank, secondBank){
         return true;
     }else if(firstBank == true && secondBank == true){
         return true;
-    }else{acme == true || foo == true}{
+    }else{firstBank == true || secondBank == true}{
         return false;
     }
 
