@@ -4,11 +4,8 @@ function bankContactSyncronization(firstBank, secondBank){
    
 
     
-    if(firstBank === false,true && secondBank === false, true){
-        return true;
-    }
-        return false;
-    
+  
+        return firstBank === true,false && secondBank === true,false;
 
 }
 
