@@ -5,7 +5,7 @@ function bankContactSyncronization(firstBank, secondBank){
 
     
   
-        return firstBank === true,false && secondBank === true,false;
+        return firstBank === true && secondBank === true;
 
 }
 
