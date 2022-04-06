@@ -3,10 +3,4 @@
 //true,false = true  false,true = false false,false = false true,true = false
 function addMeeting(isWeekday, onVacation){
    
-    if(isWeekday === true && onVacation === false){
-        return true;
-    }
-    else{
-        return false;
-    }
-}
+    return isWeekday === true && onVacation === false;}
