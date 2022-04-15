@@ -1,9 +1,9 @@
 
 //check for number. Take number and add a money symbol. 
-function addDollarSymbol(x){
-   if(isNaN(x)){
+function addDollarSymbol(paymentAmount){
+   if(isNaN(paymentAmount)){
         return "Provide integers"
    } else{
-       return "$" + x;
+       return "$" + paymentAmount;
   }
 }
