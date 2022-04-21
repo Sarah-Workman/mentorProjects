@@ -4,6 +4,6 @@ function doubleSum(x,y){
     if( isNaN(x) || isNaN(y)){
         return "Provide Integers"
     }else{
-        return x + y;
+        return x * y;
     }
 }
