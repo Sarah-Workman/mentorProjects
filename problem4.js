@@ -1,9 +1,14 @@
 
-//check for number. Take number and add a money symbol. 
+//Check and see if symbol is already present, if so return value given. If not, add a symbol to the number. 
 function addDollarSymbol(paymentAmount){
-   if(isNaN(paymentAmount)){
-        return "Provide integers"
-   } else{
+   const symbolCheck = new RegExp(/[$]/);
+
+   
+     if( symbolCheck.test(paymentAmount)){
+        return paymentAmount;
+   } 
+   else{
        return "$" + paymentAmount;
   }
+  
 }
