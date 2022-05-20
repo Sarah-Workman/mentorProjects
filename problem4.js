@@ -4,7 +4,7 @@ function addDollarSymbol(paymentAmount){
   const symbol = "$";
 
   let replace = paymentAmount.replaceAll('$', '');
-  let result = (`${symbol}`+ replace);
+  let result = (`${symbol} ${paymentAmount}`);
   return result;
 
 
