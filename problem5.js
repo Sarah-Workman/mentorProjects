@@ -6,7 +6,7 @@ function copyString(string,repeatAmount){
         let result = string.repeat(repeatAmount);
         return result;
     }else{
-        for(let i = 0; i < repeatAmount; i++){
+        for(let i = 0; i <= repeatAmount; i++){
         return string;
  // should return sarah every time the loop runs
 
