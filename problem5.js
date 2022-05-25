@@ -6,11 +6,9 @@ function copyString(string,repeatAmount){
         let result = string.repeat(repeatAmount);
         return result;
     }else{
-for(let i = 0; i < repeatAmount; i++){
-    return string += repeatAmount[i];
-    //return one value and one undefined value
-    //when return was placed outside of the loop I hade one
-    //string correct and rest were undefined.
+        for(let i = 0; i < repeatAmount; i++){
+        return string;
+ // should return sarah every time the loop runs
 
 }
 
