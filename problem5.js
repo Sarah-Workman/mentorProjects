@@ -1,18 +1,17 @@
 function copyString(string,repeatAmount){
-     var output = "";
+let result = "";
 
-    if(repeatAmount === 0 || repeatAmount < 0){
-      let repeatAmount = 1;
-      let result = string.repeat(repeatAmount);
-      return result;
-    }else{
+      if(repeatAmount === 0 || repeatAmount < 0){
+        let repeatAmount = 1;
         for(let i = 0; i < repeatAmount; i++){
-        output += string;
-        return output;
- // should return sarah every time the loop runs
+            result+=string;
+        }
+     return result;
+      }else{
+          for(let i = 0; i < repeatAmount; i++){
+              result+=string;
+          }
+          return result;
 
 }
-   document.write("end of loop");
-}
-
 }
