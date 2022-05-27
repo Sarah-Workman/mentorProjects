@@ -2,11 +2,7 @@ function copyString(string,repeatAmount){
 let result = "";
 
       if(repeatAmount === 0 || repeatAmount < 0){
-        let repeatAmount = 1;
-        for(let i = 0; i < repeatAmount; i++){
-            result+=string;
-        }
-     return result;
+         return string;
       }else{
           for(let i = 0; i < repeatAmount; i++){
               result+=string;
